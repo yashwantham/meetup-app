@@ -1,0 +1,35 @@
+.navlink-card {
+    color: #000000;
+    text-decoration: none;
+}
+
+.meetup-card-container {
+    text-align: left;
+    margin: 1.5rem 2rem;
+    position: relative;
+}
+
+.event-type {
+    position: absolute;
+    font-size: 14px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 6px;
+    left: 6px;
+}
+
+.thumbnail {
+    height: 10rem;
+    width: 14rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.meetup-title-container {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
