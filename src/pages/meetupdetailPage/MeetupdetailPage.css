@@ -1,0 +1,142 @@
+.meetupdetailpage-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.left-section-container {
+    max-width: 40vw;
+}
+
+.right-section-container {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15rem;
+}
+
+.meet-heading-container {
+    /* margin: 2rem 0; */
+}
+
+.hostedby-container {
+    margin: 2rem 0;
+}
+
+.thumbnail-mdp-container, .detailer-container, .detailer-container h2 {
+    margin: 1.5rem 0;
+}
+
+.thumbnail-mdp {
+    max-width: 28rem;
+    max-height: 24rem;
+    height: 100%;
+    width: 100%;
+}
+
+.additional-info-container {
+    margin: 1rem 0;
+}
+
+.dress-code, .age-restr {
+    margin: 1rem 0;
+}
+
+.event-tags-container {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tag {
+    margin-right: 1rem;
+    padding: 4px 6px;
+    background-color: #F55858;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.time-location-price {
+    display: flex;
+    padding: 1rem;
+    background-color: #fff;
+    min-width: 18rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.icon-n-desc {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.desc-af {
+    margin-left: 0.5rem;
+}
+
+.times {
+    display: flex;
+    flex-direction: column;
+}
+
+.speakers-container {
+    margin-top: 2rem;
+}
+
+.speaker-cards-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.speaker-img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 9999px;
+}
+
+.rsvp-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.rsvp {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 54px;
+    border-radius: 5px;
+    background-color: #F55858;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .left-section-container {
+        max-width: 100vw;
+    }
+    
+    .right-section-container {
+        max-width: 100vw;
+    }
+}
