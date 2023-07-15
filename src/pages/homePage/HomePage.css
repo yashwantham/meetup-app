@@ -1,0 +1,19 @@
+.heading-n-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.meetuplist-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.dropdown {
+    padding: 4px 7px;
+    border: none;
+    border-radius: 4px;
+}
